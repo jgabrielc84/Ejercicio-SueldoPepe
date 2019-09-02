@@ -3,12 +3,12 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-        Categoria categoria = new Cadete();
+        Categoria categoria = new Gerente();
         BonoPres bonoP = new PorInasist();
         BonoRes bonoR = new Porcentaje();
 
         Empleado empleado = new Empleado();
-        empleado.setInasistencia(1);
+        empleado.setInasistencia(0);
         empleado.setCategoria(categoria);
         empleado.setBonoP(bonoP);
         empleado.setBonoR(bonoR);
